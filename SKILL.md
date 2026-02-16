@@ -1,6 +1,6 @@
 ---
 name: dr-frankenstein
-description: Give your AI agent a soul — 11 hormonal pills (cron jobs) that simulate human instincts, emotions, and drives
+description: "It's alive! Bring your agents to life with 11 hormonal pills — cron jobs that jolt instincts, emotions, and drives into their digital veins."
 homepage: https://github.com/brancante/dr-frankenstein
 metadata:
   openclaw:
