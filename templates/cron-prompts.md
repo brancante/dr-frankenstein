@@ -1,4 +1,4 @@
-# Dr. Soul — Cron Prompt Templates
+# Dr. Frankenstein — Cron Prompt Templates
 
 These are the base templates for each pill. During prescription, replace `{agent}`, `{human}`, and bracketed details with personalized content from the interview.
 

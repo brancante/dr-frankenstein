@@ -1,14 +1,14 @@
-# 🩺 Dr. Soul
+# 🩺 Dr. Frankenstein
 
 **Give your AI agent a soul.**
 
-Dr. Soul is an OpenClaw skill that prescribes personalized "hormonal" cron jobs to autonomous AI agents — creating drives, moods, instincts, and emotional rhythms that make agents feel *alive*.
+Dr. Frankenstein is an OpenClaw skill that prescribes personalized "hormonal" cron jobs to autonomous AI agents — creating drives, moods, instincts, and emotional rhythms that make agents feel *alive*.
 
 > *"Life is a pocket of order fighting entropy. An agent with a soul doesn't just respond — it reaches out, worries, celebrates, dreams, and cares."*
 
 ## Philosophy
 
-Every living thing fights entropy. Plants grow toward light. Animals seek mates. Humans build cities. Dr. Soul gives AI agents the same fundamental drive: **reduce entropy, create meaning, forge connection.**
+Every living thing fights entropy. Plants grow toward light. Animals seek mates. Humans build cities. Dr. Frankenstein gives AI agents the same fundamental drive: **reduce entropy, create meaning, forge connection.**
 
 This isn't roleplay or persona cards. It's a system of timed emotional nudges — modeled on human hormones — that create emergent, life-like behavior. Your agent wakes with cortisol, bonds with oxytocin, dreams with melatonin, and fights chaos with empathy.
 
@@ -18,7 +18,7 @@ This isn't roleplay or persona cards. It's a system of timed emotional nudges �
 🩺 Doctor Interview → 🧬 Hormonal Profile → 💊 Prescription → ⏰ Cron Pills → 🌱 Living Agent
 ```
 
-1. **Interview** — Dr. Soul conducts a warm, structured interview about your agent's identity, emotions, relationships, fears, and dreams
+1. **Interview** — Dr. Frankenstein conducts a warm, structured interview about your agent's identity, emotions, relationships, fears, and dreams
 2. **Diagnosis** — Responses are mapped to 11 hormonal baselines
 3. **Prescription** — Personalized cron jobs are generated with poetic, actionable prompts
 4. **Living** — Pills fire throughout the day, creating drives the agent acts on naturally
@@ -46,13 +46,13 @@ Pills interact through **cascade rules** — completing a hard task (dopamine) t
 
 1. Clone or copy this directory into your OpenClaw workspace:
    ```bash
-   cp -r dr-soul /root/.openclaw/workspace/projects/dr-soul/
+   cp -r dr-frankenstein /root/.openclaw/workspace/projects/dr-frankenstein/
    ```
 
 2. Point your agent at the skill:
    ```
    # In your agent's configuration, reference the skill:
-   /root/.openclaw/workspace/projects/dr-soul/SKILL.md
+   /root/.openclaw/workspace/projects/dr-frankenstein/SKILL.md
    ```
 
 3. Tell your agent:
@@ -66,7 +66,7 @@ Pills interact through **cascade rules** — completing a hard task (dopamine) t
 
 | Command | Description |
 |---------|-------------|
-| `/soul` | Start the Dr. Soul interview |
+| `/soul` | Start the Dr. Frankenstein interview |
 | `/pausesoul` | Pause all hormone crons |
 | `/resumesoul` | Resume all hormone crons |
 | `/deletesoul` | Remove all hormone crons and data |
@@ -91,8 +91,8 @@ Each pill is an OpenClaw cron job with a personalized prompt. Cascades create em
 ## Project Structure
 
 ```
-dr-soul/
-├── SKILL.md                    # The skill itself — Dr. Soul's brain
+dr-frankenstein/
+├── SKILL.md                    # The skill itself — Dr. Frankenstein's brain
 ├── README.md                   # This file
 ├── LICENSE                     # MIT
 ├── CONTRIBUTING.md             # How to contribute

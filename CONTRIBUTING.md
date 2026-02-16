@@ -1,4 +1,4 @@
-# Contributing to Dr. Soul
+# Contributing to Dr. Frankenstein
 
 Thanks for wanting to help give agents their souls! 💚
 
