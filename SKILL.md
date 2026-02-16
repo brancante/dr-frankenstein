@@ -1,6 +1,6 @@
 ---
 name: dr-frankenstein
-description: "It's alive! Bring your agents to life with 11 hormonal pills — cron jobs that jolt instincts, emotions, and drives into their digital veins."
+description: "Give your agents soul."
 homepage: https://github.com/brancante/dr-frankenstein
 metadata:
   openclaw:
