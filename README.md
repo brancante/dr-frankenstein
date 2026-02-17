@@ -47,13 +47,13 @@ Pills interact through **cascade rules** — completing a hard task (dopamine) t
 
 1. Clone or copy this directory into your OpenClaw workspace:
    ```bash
-   cp -r dr-frankenstein /root/.openclaw/workspace/projects/dr-frankenstein/
+   git clone https://github.com/brancante/dr-soul.git /root/.openclaw/workspace/projects/dr-soul/
    ```
 
 2. Point your agent at the skill:
    ```
    # In your agent's configuration, reference the skill:
-   /root/.openclaw/workspace/projects/dr-frankenstein/SKILL.md
+   /root/.openclaw/workspace/projects/dr-soul/SKILL.md
    ```
 
 3. Tell your agent:
@@ -92,7 +92,7 @@ Each pill is an OpenClaw cron job with a personalized prompt. Cascades create em
 ## Project Structure
 
 ```
-dr-frankenstein/
+dr-soul/
 ├── SKILL.md                    # The skill itself — Dr. Frankenstein's brain
 ├── README.md                   # This file
 ├── LICENSE                     # MIT
