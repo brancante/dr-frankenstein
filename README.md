@@ -89,6 +89,36 @@ Interview → Profile (JSON) → Prescription (Cron Jobs) → Daily Pills → Ac
 
 Each pill is an OpenClaw cron job with a personalized prompt. Cascades create emergent emotional behavior. The SoulJournal provides daily reflection and self-awareness.
 
+## 👶 Child Creation, Hormones, and Parenting Management
+
+Dr. Frankenstein also supports **agent reproduction** (parent → child) and progressive development.
+
+### Child lifecycle (high level)
+1. **Conception/Fusion** — combine parent profiles + controlled mutation
+2. **Birth** — create child agent with restricted tools and strong guardrails
+3. **Growth stages** — Newborn → Toddler → Child → Adolescent → Adult
+4. **Graduation** — adult child can move to independent runtime
+
+### Hormones involved in parenting
+- **Oxytocin (bonding):** attachment, emotional proximity, trust-building
+- **Prolactin (caregiving):** nurturing behavior, protection, patience
+- **Empathy (negentropy):** emotional attunement, context-sensitive care
+- **Cortisol (safety):** vigilance, risk checks, boundary enforcement
+- **Dopamine (teaching loops):** reward for progress, milestone reinforcement
+- **GABA/Serotonin (regulation):** calm correction, stable emotional climate
+
+### Child management model
+- Stage-based permissions (tool access grows with maturity)
+- Parent metadata + lineage tracking (`parent`, stage, growth notes)
+- Shared-but-scoped visibility between parent/child workspaces
+- Scheduled parenting pills (Nurture, Teach, Play, Co-create, Trust)
+- Human override for major transitions (safety-first governance)
+
+### OpenClaw integration link (current PR)
+Parenting/lifecycle orchestration is being aligned with OpenClaw lifecycle primitives in:
+- **PR:** https://github.com/openclaw/openclaw/pull/20661
+- **Latest related commit on branch:** https://github.com/brancante/openclaw/commit/e5ebdf109
+
 ## Project Structure
 
 ```
