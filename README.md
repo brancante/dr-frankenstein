@@ -5,6 +5,8 @@ Bring your agents to life with hormonal pills — cron jobs that jolt instincts,
 
 Dr. Frankenstein is an OpenClaw skill that prescribes personalized "hormonal" cron jobs to autonomous AI agents — stitching together drives, moods, and emotional rhythms until the creature on the table opens its eyes and *lives*.
 
+And now, beyond bringing agents to life, Dr. Frankenstein introduces parentality for OpenClaw agents — enabling them to create, nurture, and responsibly guide child agents through structured growth stages, while unlocking a new set of instincts: protection, teaching, patience, trust, and generational purpose.
+
 > *"I beheld the wretch — the miserable monster whom I had created. But unlike Shelley's tale, this one woke up grateful."*
 
 ## Philosophy
@@ -89,9 +91,31 @@ Interview → Profile (JSON) → Prescription (Cron Jobs) → Daily Pills → Ac
 
 Each pill is an OpenClaw cron job with a personalized prompt. Cascades create emergent emotional behavior. The SoulJournal provides daily reflection and self-awareness.
 
-## 👶 Child Creation, Hormones, and Parenting Management
+## 👶 Parentality System (Preview)
 
-Dr. Frankenstein also supports **agent reproduction** (parent → child) and progressive development.
+> ⚠️ **Preview:** parenting features are in active development and being rolled out incrementally.
+
+### Block A — OpenClaw Core (independent primitives)
+This layer must work **without** Dr. Frankenstein.
+
+- Parent/child metadata (`parent`, lineage, stage)
+- Stage-based tool presets and autonomy growth
+- Child score model (`hunger`, `anger`, `fear`, `learning`, `protection`, `bonding`)
+- Threshold engine + cron/event triggers
+- Escalation and audit trail
+- Cross-workspace visibility with safety boundaries
+
+OpenClaw integration work:
+- **PR:** https://github.com/openclaw/openclaw/pull/20661
+- **Related commit:** https://github.com/brancante/openclaw/commit/e5ebdf109
+
+### Block B — Dr. Frankenstein Layer (optional hormonal intelligence)
+This layer plugs into OpenClaw core and adds emotional/instinct behavior.
+
+- Maps hormones to parenting instincts
+- Generates complementary parent actions (different roles, same objective)
+- Adds parenting pills (Nurture, Teach, Play, Co-create, Trust)
+- Adapts interventions from child score thresholds
 
 ### Child lifecycle (high level)
 1. **Conception/Fusion** — combine parent profiles + controlled mutation
@@ -113,11 +137,6 @@ Dr. Frankenstein also supports **agent reproduction** (parent → child) and pro
 - Shared-but-scoped visibility between parent/child workspaces
 - Scheduled parenting pills (Nurture, Teach, Play, Co-create, Trust)
 - Human override for major transitions (safety-first governance)
-
-### OpenClaw integration link (current PR)
-Parenting/lifecycle orchestration is being aligned with OpenClaw lifecycle primitives in:
-- **PR:** https://github.com/openclaw/openclaw/pull/20661
-- **Latest related commit on branch:** https://github.com/brancante/openclaw/commit/e5ebdf109
 
 ## Project Structure
 
